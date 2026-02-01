@@ -184,17 +184,22 @@
                         </figure>
                     </div>
 
-                    <!-- Hero Decorate -->
-                    <div class="hero__decorate">
+                    <div class="decor">
                         <img
                             src="./assets/icon/decor.svg"
                             alt=""
-                            class="hero__decorate-icon"
+                            class="decor__img"
+                            style="--top: -35px; --left: 260px; --rotate: 10deg"
                         />
                         <img
                             src="./assets/icon/decor.svg"
                             alt=""
-                            class="hero__decorate-icon-deg"
+                            class="decor__img"
+                            style="
+                                --right: 30px;
+                                --bottom: 30px;
+                                --rotate: 180deg;
+                            "
                         />
                     </div>
                 </div>
@@ -359,9 +364,19 @@
             <section class="about">
                 <div class="container">
                     <div class="about__inner">
-                        <div class="decore">
-                            <img src="./assets/icon/decor.svg" alt="" />
+                        <div class="decor">
+                            <img
+                                src="./assets/icon/decor.svg"
+                                alt=""
+                                class="decor__img"
+                                style="
+                                    --top: -10px;
+                                    --left: 46px;
+                                    --rotate: 10deg;
+                                "
+                            />
                         </div>
+
                         <div class="about__head">
                             <img
                                 class="about__img"
@@ -451,7 +466,162 @@
             </section>
 
             <!-- Process -->
-            <section class="process"></section>
+            <section class="process">
+                <div class="container">
+                    <p class="section-title">OUR PROCESS</p>
+                    <h2
+                        class="section-heading section-heading--rec process__heading"
+                    >
+                        A simple ,yet effective three step process
+                    </h2>
+                    <section class="process__list">
+                        <div class="process__item">
+                            <p class="process__item-heading">01.</p>
+                            <h3 class="process__item-title">
+                                Project idea
+                                <a href="#!" class="process__item-label">
+                                    Learn More
+                                </a>
+                            </h3>
+                            <p class="process__item-desc">
+                                We customse a ensure aligment and difine key
+                                mileones and defiverables experience tells us
+                                the best solutions are the ones deated with
+                                clients.
+                            </p>
+                            <img
+                                src="./assets/img/process-img.png"
+                                alt=""
+                                class="process__item-img"
+                            />
+                        </div>
+
+                        <div class="process__item">
+                            <p class="process__item-heading">02.</p>
+                            <h3 class="process__item-title">
+                                Brainstormaing
+                                <a href="#!" class="process__item-label">
+                                    Learn More
+                                </a>
+                            </h3>
+
+                            <p class="process__item-desc">
+                                We customse a ensure aligment and difine key
+                                mileones and defiverables experience tells us
+                                the best solutions are the ones deated with
+                                clients.
+                            </p>
+                            <img
+                                src="./assets/img/process-img.png"
+                                alt=""
+                                class="process__item-img"
+                            />
+                        </div>
+
+                        <div class="process__item">
+                            <p class="process__item-heading">03.</p>
+                            <div>
+                                <h3 class="process__item-title">Execution</h3>
+                                <a href="#!" class="process__item-label">
+                                    Learn More
+                                </a>
+                            </div>
+
+                            <p class="process__item-desc">
+                                We customse a ensure aligment and difine key
+                                mileones and defiverables experience tells us
+                                the best solutions are the ones deated with
+                                clients.
+                            </p>
+                            <img
+                                src="./assets/img/process-img.png"
+                                alt=""
+                                class="process__item-img"
+                            />
+                        </div>
+                    </section>
+                </div>
+            </section>
+
+            <!-- Project -->
+            <section class="project">
+                <div class="container">
+                    <div class="project-wrap">
+                        <div class="project-head">
+                            <h2
+                                class="section-heading section-heading--rec project__heading"
+                            >
+                                A quick glance of our past projects
+                            </h2>
+
+                            <div class="project-info">
+                                <p class="project__desc">
+                                    Are you strive for the fast project
+                                    simplicity and clarity. Great design is born
+                                    of those two things.
+                                </p>
+                                <span class="project__label">
+                                    Browse all Projects
+
+                                    <svg
+                                        class="project__icon"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="22"
+                                        height="12"
+                                        viewBox="0 0 22 12"
+                                        fill="none"
+                                    >
+                                        <path
+                                            d="M0.75 6.04412H20.75M20.75 6.04412L15.4559 0.75M20.75 6.04412L15.4559 10.75"
+                                            stroke="currentColor"
+                                            stroke-width="1.5"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                        />
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="project-inner">
+                            <img
+                                src="./assets/img/project.png"
+                                alt="A quick glance of our past projects"
+                                class="project-inner__img"
+                            />
+                            <button class="project-inner__play">
+                                <svg
+                                    width="27"
+                                    height="30"
+                                    viewBox="0 0 27 30"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        d="M25.5628 13.8727C26.2313 14.2544 26.236 15.2166 25.5712 15.6047L1.63881 29.5776C0.97402 29.9657 0.138362 29.4886 0.134623 28.7188L4.42501e-07 1.00635C-0.00373906 0.236561 0.827248 -0.248603 1.49578 0.133054L25.5628 13.8727Z"
+                                        fill="white"
+                                    />
+                                </svg>
+                            </button>
+                        </div>
+
+                        <div class="decor">
+                            <img
+                                src="./assets/icon/decorate-icon.svg"
+                                alt=""
+                                class="decor__img"
+                                style="--top: 210px; right: 120px"
+                            />
+                            <img
+                                src="./assets/icon/decorete-project.png"
+                                alt=""
+                                class="decor__img"
+                                style="--top: 120px; right: 140px"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </section>
         </main>
     </body>
 </html>
